@@ -24,7 +24,7 @@ test('', () => {
 test('', () => {
   let result = getProductImageWithPngExtension(productList);
   expect(result[0].productImage).toBe(
-    'https://image.migros.ch/product-zoom/7155c76b6f1134f6a57795ded7c1fb8c80953cf7/extra-konfituere-hagenbutten.png'
+    'https://image.migros.ch/product-zoom/7155c76b6f1134f6a57795ded7c1fb8c80953cf7/extra-konfituere-hagenbutten.png' 
   );
 });
 
